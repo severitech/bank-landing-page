@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function BestBusiness() {
   return (
-    <section className="realtive px-6 py-20 md:py-64 ">
+    <section className="relative px-6 py-20 md:py-64 " id="features">
       <BackgroundRadialLeft />
       <section className="grid max-w-5xl mx-auto md:grid-cols-2 ">
         <section>
