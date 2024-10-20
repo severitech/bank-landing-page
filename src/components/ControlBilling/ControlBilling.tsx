@@ -3,10 +3,12 @@
 import Image from "next/image";
 import { MotionTransition } from "../MotionTransition";
 import { Reveal } from "../Reveal";
+import { BackgroundRadialLeft } from "../BackgroundRadialLeft";
 
 export function ControlBilling() {
   return (
     <section className="relative p-4 py-20 md:py-64">
+      <BackgroundRadialLeft/>
       <section className="flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly">
         <MotionTransition className=" flex-1 p-6 md:p-8">
           <Image src='/assets/control-business.png' alt="control business" width={580} height={411} className="w-full h-auto"/>

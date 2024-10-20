@@ -28,9 +28,9 @@ export function Reveal({ children }: { children: React.ReactNode }) {
           hidden: { opacity: 0, y: 75 },
           visible: { opacity: 1, y: 0 },
         }}
-        initial="hidden"
+        initial='hidden'
         animate={mainControls}
-        exit="hidden"
+        exit='hidden'
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         {children}

@@ -16,13 +16,13 @@ export function MotionTransition(props: MotionTransitionProps) {
         mainControls.start("visible")
         slideControls.start("visible")
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInView])
 
   return (
     <section ref={ref}>
       <motion.section variants={fadeIn()}
-      initial= "hidden" animate={mainControls}
+      initial= "hidden" 
+      animate={mainControls}
       exit="hidden"
       className={className}>{children}</motion.section>
     </section>
